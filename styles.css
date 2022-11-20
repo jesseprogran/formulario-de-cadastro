@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -11,14 +12,47 @@
   background-position: center;
   background-size: cover;
   position: absolute;
+  
+}
+
+.logo {
+  display: flex;
+  width: 40px;
 }
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 50px;
+
+  padding: 0 2.4rem;
 }
 
 ul {
   display: flex;
+  font-weight: bolder;
   list-style: none;
+  gap: 3rem;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  cursor: pointer;
+}
 
+ul li:hover {
+  color: rgb(101, 101, 104);
+}
+
+.button {
+  text-decoration: none;
+  padding: 5px;
+  font-weight: bolder;
+  color: rgb(30, 202, 194);
+  border: solid 1px transparent;
+  border-radius: 5px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  
+}
+
+.button:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
 }

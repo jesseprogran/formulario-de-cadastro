@@ -8,6 +8,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="styles.css">
@@ -29,17 +33,20 @@
         <h2 class="titulo">Faça Seu Cadastro</h2>
         <label for="nome">Nome</label>
         <div class="input">
-          <input class="nome" name="nome" type="text" placeholder="Digite seu nome">
+          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+          <input id="nome" name="nome" type="text" placeholder="Digite seu nome">
         </div>
 
         <label for="email">E-mail</label>
         <div class="input">
-          <input class="email" name="email" type="text" placeholder="Digite seu e-mail">
+          <i class="fa-solid fa-envelope"></i>
+          <input id="email" name="email" type="text" placeholder="Digite seu e-mail">
         </div>
 
         <label for="senha">Senha</label>
-        <div class="input">
-          <input class="senha" name="senha" type="password" placeholder="Digite sua senha">
+        <div class="input">     
+          <i class="fa-solid fa-unlock"></i>
+          <input id="senha" name="senha" type="password" placeholder="Digite sua senha">
         </div>
 
         <div class="botton">
@@ -49,5 +56,7 @@
       </form>
     </div>
   </div>
+
+  <script src="https://kit.fontawesome.com/9b7e4c0fd3.js" crossorigin="anonymous"></script>
 </body>
 </html>

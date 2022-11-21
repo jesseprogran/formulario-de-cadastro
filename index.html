@@ -14,17 +14,39 @@
 </head>
 <body>
   <div class="container">
-    <div class="navbar">
-      <nav>
-        <img class="logo" src="./images/FORM_logo_larger.png" alt="logo">
-        <ul>
+    <nav>
+      <img class="logo" src="./images/FORM_logo_larger.png" alt="logo">
+      <ul>
           <li>Sobre</li>
           <li>Serviços</li>
           <li>Depoimento</li>
-        </ul>
+      </ul>
+      <a href="#" class="button">Contato</a>
+    </nav>
 
-        <a href="#" class="button">Contato</a>
-      </nav>
+    <div class="form">
+      <form action="">
+        <h2 class="titulo">Faça Seu Cadastro</h2>
+        <label for="nome">Nome</label>
+        <div class="input">
+          <input class="nome" name="nome" type="text" placeholder="Digite seu nome">
+        </div>
+
+        <label for="email">E-mail</label>
+        <div class="input">
+          <input class="email" name="email" type="text" placeholder="Digite seu e-mail">
+        </div>
+
+        <label for="senha">Senha</label>
+        <div class="input">
+          <input class="senha" name="senha" type="password" placeholder="Digite sua senha">
+        </div>
+
+        <div class="botton">
+          <button type="submit">Cadastrar</button>
+        </div>
+
+      </form>
     </div>
   </div>
 </body>

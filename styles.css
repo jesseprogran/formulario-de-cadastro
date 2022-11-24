@@ -17,7 +17,7 @@
 
 .logo {
   display: flex;
-  width: 40px;
+  width: 80px;
 }
 nav {
   display: flex;
@@ -35,10 +35,18 @@ ul {
   gap: 3rem;
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   cursor: pointer;
+  color: rgb(30, 202, 194);
+}
+
+li {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 ul li:hover {
-  color: rgb(101, 101, 104);
+  background-color: black;
+  color: rgb(255, 255, 255);
 }
 
 .button {
@@ -67,7 +75,7 @@ ul li:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgb(255, 255, 255);
+  background: rgb(239, 243, 244);
   border-radius: 10px;
   padding: 60px;
   width: min-content;
